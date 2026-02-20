@@ -7,7 +7,7 @@ class Jcode < Formula
   on_macos do
     on_arm do
       url "https://github.com/1jehuang/jcode/releases/download/v0.3.1/jcode-macos-aarch64.tar.gz"
-      sha256 "1a5526e3dd1c35da2c02ec430b72f420dc53e419a44566422ee394bf2d88f1a5"
+      sha256 "7a6a28ef8ad3db9cb72ccfbaea6965fb0a4df58467ddd36ae0e56cbe59fe752f"
 
       def install
         bin.install "jcode-macos-aarch64" => "jcode"
@@ -18,7 +18,7 @@ class Jcode < Formula
   on_linux do
     on_intel do
       url "https://github.com/1jehuang/jcode/releases/download/v0.3.1/jcode-linux-x86_64.tar.gz"
-      sha256 "58b60fe476f91560a5f65753141609fba176ef082feb46a5605b96bf5f81bf4d"
+      sha256 "1c60f1b99137464e5ebbf422f360ba23fec7df0a84dfb22a1dd6e2f7666d3467"
 
       def install
         bin.install "jcode-linux-x86_64" => "jcode"
