@@ -1,13 +1,13 @@
 class Jcode < Formula
   desc "AI coding agent powered by Claude and ChatGPT"
   homepage "https://github.com/1jehuang/jcode"
-  version "0.6.0"
+  version "0.6.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/1jehuang/jcode/releases/download/v0.6.0/jcode-macos-aarch64.tar.gz"
-      sha256 "ade728590f8fd8f2faa29c48e12d759368bbbf7f75a7d5fd78bb78e37f49f6f9"
+      url "https://github.com/1jehuang/jcode/releases/download/v0.6.1/jcode-macos-aarch64.tar.gz"
+      sha256 "b4d636debb3994be4a874826d795daef3f46fd881b152fdb190eb5cbc4539591"
 
       def install
         bin.install "jcode-macos-aarch64" => "jcode"
@@ -17,8 +17,8 @@ class Jcode < Formula
 
   on_linux do
     on_intel do
-      url "https://github.com/1jehuang/jcode/releases/download/v0.6.0/jcode-linux-x86_64.tar.gz"
-      sha256 "44d9009a6725d7eb993521e7119c0c37bf539fd41a605332cf79604170d6af57"
+      url "https://github.com/1jehuang/jcode/releases/download/v0.6.1/jcode-linux-x86_64.tar.gz"
+      sha256 "30350cea8a1cee5db053db0bda51ccebad80b83716c8ce18cf4a627dd340a3f2"
 
       def install
         bin.install "jcode-linux-x86_64" => "jcode"
