@@ -1,13 +1,13 @@
 class Jcode < Formula
   desc "AI coding agent powered by Claude and ChatGPT"
   homepage "https://github.com/1jehuang/jcode"
-  version "0.23.0"
+  version "0.24.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/1jehuang/jcode/releases/download/v0.23.0/jcode-macos-aarch64.tar.gz"
-      sha256 "d8018d6ecb5e9a6b5fe0ba75e82e0a2b205a2f0f5312d4da5a7b66c81697711a"
+      url "https://github.com/1jehuang/jcode/releases/download/v0.24.0/jcode-macos-aarch64.tar.gz"
+      sha256 "388e8fc7757a698578f19ea10410691a944beb96cd95b1bc48243b9666b767e9"
 
       def install
         bin.install "jcode-macos-aarch64" => "jcode"
@@ -15,8 +15,8 @@ class Jcode < Formula
     end
 
     on_intel do
-      url "https://github.com/1jehuang/jcode/releases/download/v0.23.0/jcode-macos-x86_64.tar.gz"
-      sha256 "8fa53039d6b1faa21ee64a521d26c20dff24cd189ea5e0601ea43367d81814c6"
+      url "https://github.com/1jehuang/jcode/releases/download/v0.24.0/jcode-macos-x86_64.tar.gz"
+      sha256 "e81f02d3a2be1ee8a5569d3a936a5a133443e08ae02fea2646b2eb192538d22b"
 
       def install
         bin.install "jcode-macos-x86_64" => "jcode"
@@ -26,8 +26,8 @@ class Jcode < Formula
 
   on_linux do
     on_intel do
-      url "https://github.com/1jehuang/jcode/releases/download/v0.23.0/jcode-linux-x86_64.tar.gz"
-      sha256 "4b22b62ca4cf1591969d8eaab1197adeac442d2f3400414d676dff911ccf15ea"
+      url "https://github.com/1jehuang/jcode/releases/download/v0.24.0/jcode-linux-x86_64.tar.gz"
+      sha256 "fc0787fe0f975a152232b2a69dc1b911617032f36b43701985af2d2370abe99e"
 
       def install
         libexec.install "jcode-linux-x86_64", "jcode-linux-x86_64.bin"
@@ -40,8 +40,8 @@ exec "#{libexec}/jcode-linux-x86_64" ""
     end
 
     on_arm do
-      url "https://github.com/1jehuang/jcode/releases/download/v0.23.0/jcode-linux-aarch64.tar.gz"
-      sha256 "c1016169098bfd46d738680e098980b1b64a1c363ecf06c89ee64a5369e3ece3"
+      url "https://github.com/1jehuang/jcode/releases/download/v0.24.0/jcode-linux-aarch64.tar.gz"
+      sha256 "c0d09b3192f1e138ae61077e8fe753adca354ac8ebe15adf1ea5b0b5b938add3"
 
       def install
         bin.install "jcode-linux-aarch64" => "jcode"
