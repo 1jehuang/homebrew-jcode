@@ -34,7 +34,7 @@ class Jcode < Formula
         libexec.install Dir["libssl.so*"], Dir["libcrypto.so*"] unless Dir["libssl.so*", "libcrypto.so*"].empty?
         (bin/"jcode").write <<~SH
 #!/bin/sh
-exec "#{libexec}/jcode-linux-x86_64" ""
+exec "#{libexec}/jcode-linux-x86_64" "$@"
         SH
       end
     end
